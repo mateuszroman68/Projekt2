@@ -1,0 +1,24 @@
+﻿<Window x:Class="Projekt.Lista"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt"
+        mc:Ignorable="d"
+        Title="Lista" Height="450" Width="800">
+    <Grid>
+        <ListView Margin="10" Name="lvUsers">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Imie" Width="100" DisplayMemberBinding="{Binding Imie }" />
+                    <GridViewColumn Header="Nazwisko" Width="100" DisplayMemberBinding="{Binding Nazwisko}" />
+                    <GridViewColumn Header="Pseudonim" Width="100" DisplayMemberBinding="{Binding Pseudonim }" />
+                    <GridViewColumn Header="Kraj" Width="100" DisplayMemberBinding="{Binding Kraj }" />
+                    <GridViewColumn Header="Liczba ofiar" Width="100" DisplayMemberBinding="{Binding }" />
+                    <GridViewColumn Header="Lata działania" Width="100" DisplayMemberBinding="{Binding }" />
+                    <GridViewColumn Header="Zdjęcie" Width="180" DisplayMemberBinding="{Binding }" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
