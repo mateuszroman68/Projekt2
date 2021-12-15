@@ -11,12 +11,13 @@
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Imie" Width="100" DisplayMemberBinding="{Binding Imie }" />
-                    <GridViewColumn Header="Nazwisko" Width="100" DisplayMemberBinding="{Binding Nazwisko}" />
-                    <GridViewColumn Header="Pseudonim" Width="100" DisplayMemberBinding="{Binding Pseudonim }" />
-                    <GridViewColumn Header="Kraj" Width="100" DisplayMemberBinding="{Binding Kraj }" />
-                    <GridViewColumn Header="Liczba ofiar" Width="100" DisplayMemberBinding="{Binding }" />
-                    <GridViewColumn Header="Lata działania" Width="100" DisplayMemberBinding="{Binding }" />
-                    <GridViewColumn Header="Zdjęcie" Width="180" DisplayMemberBinding="{Binding }" />
+                    <GridViewColumn Header="Nazwisko" Width="100" DisplayMemberBinding="{Binding nazwisko}" />
+                    <GridViewColumn Header="Pseudonim" Width="100" DisplayMemberBinding="{Binding pseudonim }" />
+                    <GridViewColumn Header="Kraj" Width="100" DisplayMemberBinding="{Binding kraj }" />
+                    <GridViewColumn Header="Liczba ofiar" Width="100" DisplayMemberBinding="{Binding liczbaOfiar }" />
+                    <GridViewColumn Header="Lata działania" Width="100" DisplayMemberBinding="{Binding lataDzialania}" />
+                    <GridViewColumn Header="informacje" Width="180"  />
+                    
                 </GridView>
             </ListView.View>
         </ListView>

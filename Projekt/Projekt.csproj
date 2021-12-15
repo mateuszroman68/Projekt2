@@ -55,6 +55,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Serializacja.cs" />
     <Page Include="Lista.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
